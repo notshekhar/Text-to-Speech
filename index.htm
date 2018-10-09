@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <textarea name="name" placeholder="Start Writing Here" class="textarea"></textarea>
+      <div class="volume"><span>Volume  </span><input type="range" name="volume" class="vol playerslider" value="1" min="0" max="1" step="0.01"></div>
+      <div class="rate"><span>Rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="range" name="rate" class="ratee playerslider" value="1" min="-10" max="10" step="0.01"></div>
+      <div class="pitch"><span>Pitch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="range" name="pitch" class="pit playerslider" value="1" min="-10" max="10" step="0.01"></div>
+      <button class="speak">Speak</button>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
